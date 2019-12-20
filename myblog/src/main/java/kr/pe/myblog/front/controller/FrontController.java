@@ -27,6 +27,9 @@ import kr.pe.myblog.team.service.TeamService;
 public class FrontController {
 	//<context:component-scan base-package="kr.pe.myblog.front.controller" />
 	//contorller 추가시 수정해야 할 부분
+	//git 확인용 수정
+	String temp="";
+	
 	private static final Logger logger = LoggerFactory.getLogger(FrontController.class);
 	
 	@Inject
