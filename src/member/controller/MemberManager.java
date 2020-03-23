@@ -47,7 +47,7 @@ public class MemberManager {
 		for(int i=0; i<m.length; i++) {
 			if(m[i].getUserId().equals(str)) {
 				
-				printOne(m[i]);
+				printOne(m[i]);a
 			}
 			
 		}
