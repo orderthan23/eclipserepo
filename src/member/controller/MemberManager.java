@@ -96,7 +96,7 @@ public class MemberManager {
 		System.out.println("이름 :"+m.getUserName());
 		System.out.println("나이 :"+m.getAge());
 		System.out.println("성별 :"+m.getGender());
-		System.out.println("이메일 :"+m.getEmail());
+		System.out.println("이메일 :"+m.getEmail());s
 		
 	}
 	
