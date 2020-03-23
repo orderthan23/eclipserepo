@@ -42,7 +42,15 @@ public class MemberManager {
 	}
 	
 	public void searchId() {
-		// TODO Auto-generated method stub
+		System.out.print("입력할 아이디를 입력하세요 :");
+		String str=scan.next();
+		for(int i=0; i<m.length; i++) {
+			if(m[i].getUserId().equals(str)) {
+				
+				printOne(m[i]);
+			}
+			
+		}
 		
 	}
 
@@ -79,6 +87,16 @@ public class MemberManager {
 
 	public static void deleteOne() {
 		// TODO Auto-generated method stub
+		
+	}
+	
+	public void printOne(Member m) {
+		System.out.println("아이디 :"+m.getUserId());
+		System.out.println("패스워드 :"+m.getUserPwd());
+		System.out.println("이름 :"+m.getUserName());
+		System.out.println("나이 :"+m.getAge());
+		System.out.println("성별 :"+m.getGender());
+		System.out.println("이메일 :"+m.getEmail());
 		
 	}
 	
