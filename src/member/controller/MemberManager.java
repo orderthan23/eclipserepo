@@ -47,7 +47,31 @@ public class MemberManager {
 		for(int i=0; i<m.length; i++) {
 			if(m[i].getUserId().equals(str)) {
 				
-				printOne(m[i]);a
+				printOne(m[i]);
+			}
+			
+		}
+		
+	}
+	public void searchName() {
+		System.out.print("입력할 아이디를 입력하세요 :");
+		String str=scan.next();
+		for(int i=0; i<m.length; i++) {
+			if(m[i].getUserName().equals(str)) {
+				
+				printOne(m[i]);
+			}
+			
+		}
+		
+	}
+	public void searchEmail() {
+		System.out.print("입력할 아이디를 입력하세요 :");
+		String str=scan.next();
+		for(int i=0; i<m.length; i++) {
+			if(m[i].getEmail().equals(str)) {
+				
+				printOne(m[i]);
 			}
 			
 		}
@@ -60,15 +84,7 @@ public class MemberManager {
 	}
 
 
-	public void searchName() {
-		// TODO Auto-generated method stub
-		
-	}
 
-	public void searchEmail() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	public void updatePwd() {
 		// TODO Auto-generated method stub
@@ -96,7 +112,7 @@ public class MemberManager {
 		System.out.println("이름 :"+m.getUserName());
 		System.out.println("나이 :"+m.getAge());
 		System.out.println("성별 :"+m.getGender());
-		System.out.println("이메일 :"+m.getEmail());s
+		System.out.println("이메일 :"+m.getEmail());
 		
 	}
 	
